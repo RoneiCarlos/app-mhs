@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home"
+    tools:showIn="@layout/app_bar_home">
+
+    <ListView
+        android:id="@+id/lv_servicos_agendados"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/branco"
+        android:divider="#d4dd730c"
+        android:dividerHeight="2sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/mag_btn_servicos"
+        app:layout_constraintEnd_toEndOf="@+id/aba_agenda"
+        app:layout_constraintStart_toStartOf="@+id/aba_agenda"
+        app:layout_constraintTop_toBottomOf="@+id/aba_agenda" />
+
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/mag_btn_servicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:button_icon="@android:drawable/ic_menu_agenda"
+        app:button_icon_height="28dp"
+        app:button_icon_width="28dp"
+        app:expandable_area_color="#d4dd730c"
+        app:hide_text="Serviços"
+        app:hide_text_color="#fff"
+        app:hide_text_size="12dp"
+        app:icon_button_color="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:magic_button_size="56dp" />
+
+    <TextView
+        android:id="@+id/aba_agenda"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/agenda_bg"
+        android:text="AGENDA"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

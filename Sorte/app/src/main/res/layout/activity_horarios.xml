@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Horarios"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:id="@+id/btnConcluido"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/botao_laranja_bg"
+        android:text="Concluído"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/branco_bg"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+           <View
+                android:id="@+id/divider72"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+         <TextView
+             android:id="@+id/txt0800"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="08:00"
+             android:textColor="#000"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+         <TextView
+             android:id="@+id/txt0815"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="08:15"
+             android:textColor="#000"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+         <TextView
+             android:id="@+id/txt0830"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="08:30"
+             android:textColor="#000"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt0845"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="08:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider27"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt0900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="09:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider28"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt0915"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="09:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider29"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt0930"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="09:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider30"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt0945"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="09:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider31"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider32"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider33"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider34"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1045"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider35"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider36"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider37"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider38"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider39"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider40"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider41"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider42"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider43"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider44"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1315"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider45"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1330"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider46"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider47"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider48"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1415"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider49"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1430"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider50"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1445"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider51"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider52"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1515"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider53"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1530"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider54"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider55"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider56"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1615"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider57"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1630"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider58"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1645"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider59"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider60"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1715"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider61"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1730"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider62"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1745"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider63"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18:00"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider64"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1815"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider65"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1830"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider66"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1845"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider67"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+         <TextView
+             android:id="@+id/txt1900"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="19:00"
+             android:textColor="#000"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider68"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1915"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19:15"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider69"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1930"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19:30"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider70"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txt1945"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19:45"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider71"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

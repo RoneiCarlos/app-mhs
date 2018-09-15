@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--espaco_em_branco-->
+            <View
+                android:id="@+id/blank_space"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <!--icones-->
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roxo_divisor_esquero_bg"
+                    android:orientation="vertical">
+
+                    <!--caixa_icone_nome-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <!--icone_nome-->
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/perfil_white" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+                    <!--caixa icone sobrenome-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <!--icone_nome-->
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/perfil_white" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+                    <!--caixa icone aniversário-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <!--icone_nome-->
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/calendar" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+
+                    <!--caixa icone telefone-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <!--icone_nome-->
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fone" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+
+                    <!--caixa icone cpf-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <!--icone_nome-->
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/cpf" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+                    <!--caixa_icone_email-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <!--icone_email-->
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/email_white" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+                    <!--caixa de ícone de senha-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <!--icone_email-->
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/senha_white" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+                    <!--caixa_icone_senha-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <!--icone_senha-->
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/senha_white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--dados-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roxo_claro_right_bg"
+                    android:orientation="vertical">
+
+                    <!--caixa_entrada_nome-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <!--entrada_de_nome-->
+                        <EditText
+                            android:id="@+id/cad_nome"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Nome"
+                            android:inputType="textPersonName"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+                    <!--caixa_entrada_sobrenome-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <!--entrada_de_nome-->
+                        <EditText
+                            android:id="@+id/cad_sobrenome"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Sobrenome"
+                            android:inputType="textPersonName"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+                    <!--caixa_entrada_Aniversário-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <!--entrada_de_nome-->
+                        <EditText
+                            android:id="@+id/cad_aniversario"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Data de Nascimento"
+                            android:inputType="date"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+
+                    <!--caixa_entrada_telefone-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <!--entrada_de_nome-->
+                        <EditText
+                            android:id="@+id/cad_telefone"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Celular"
+                            android:inputType="number"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+
+                    <!--caixa entrada cpf-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <!--entrada_de_cpf-->
+                        <EditText
+                            android:id="@+id/cad_cpf"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:hint="CPF"
+                            android:inputType="number"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+                    <!--caixa_entrada_email-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <!--entrada_de_email-->
+                        <EditText
+                            android:id="@+id/cad_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:hint="E-mail"
+                            android:inputType="textEmailAddress"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+
+                    <!--caixa_entrada_email-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <!--entrada_de_email-->
+                        <EditText
+                            android:id="@+id/cad_senha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Senha"
+                            android:inputType="textPassword"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!--linha_divisoria-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#dd730c"
+                        android:orientation="vertical" />
+
+
+                    <!--caixa_entrada_senha-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:orientation="vertical">
+
+                        <!--entrada_de_repetir_senha-->
+                        <EditText
+                            android:id="@+id/cad_rpt_senha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:hint="Repita sua senha"
+                            android:inputType="textPassword"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#dd730c"
+                            android:orientation="vertical" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_cadastrar"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botao_laranja_bg"
+                android:onClick="act_btn_cadastrar"
+                android:text="Cadastrar"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <!--forma_de_login-->
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <!--botao-->
+
+</LinearLayout>

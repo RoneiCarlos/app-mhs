@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MHS</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_nome">%1$s</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_servicos">Servicos</string>
+    <string name="tab_text_1">Cabelo</string>
+    <string name="tab_text_2">Rosto</string>
+    <string name="tab_text_3">Mãos e Pés</string>
+    <string name="tab_text_4">Depilação</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

@@ -1,0 +1,76 @@
+-> pesquisa de camapo em vários salões:
+
+-> linha do tempo de versões (histórico de versionamento de dev.)
+
+
+VERSIONAMENTO
+1.0.0 - TELA SPLASH
+1.1.0 - Tela inicial
+1.1.1 - aba de cadastro
+1.1.2 - aba de login
+1.2.0 - tela home
+1.2.1 - incremento de menu lateral na tela home
+1.3.0 - tela de serviços
+1.3.1 - incremento da aba CABELO na tela de serviços
+1.3.2 - incremento de serviço de corte de cabelo na aba cabelo
+1.4.0 - tela de calendário 
+1.5.0 - tela de horários
+1.5.1 - exibição do serviço agendado na tela inicial
+1.6.0 - INTEGRAÇÃO DO APP COM O BANCO LOCAL
+1.7.0 - PAGINA DE GERENCIAMENTO PARA O ADMINISTRADOR
+1.7.1 - exibição de ordem de serviço no painel de gerenciamento (VERSÃO ESTÁVEL)
+2.0.0 - incremento da aba ROSTO na tela de serviços
+2.0.1 - incremento de serviço de limpeza de pele na aba ROSTO
+2.1.0 - incremento da aba MÃOS E PÉS na tela de serviços
+2.1.1 - incremento de serviço de manicure e pedicure
+2.2.0 - incremento da aba DEPILAÇÃO na tela de servios
+2.2.1 - incremento de serviço de depilação de pernas 
+
+
+
+
+- tela de configurações de perfil (alteração de dados e tal)
+.
+.
+.
+- notificação na barra de notificaçoes
+.
+.
+.
+a few years later
+.
+.
+.
+- ....login com facebook....
+.
+.
+.
+more few year later
+.
+.
+.
+crash of mhs.co
+.
+.
+.
+the end
+.
+.
+.
+building
+.
+.
+.
+ERROR NOT FOUND
+.
+.
+.
+the end of de world
+.
+.
+.
+a new Earth.
+.
+.
+.
+compile app is finish

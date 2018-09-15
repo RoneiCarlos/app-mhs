@@ -1,0 +1,35 @@
+modo atual
+	deslocamento
+	ligação
+	mensagem
+	agendamento apenas em horário comercial
+
+problemas encontrados nesse modo atual
+	-deslocamento
+		gasto de dinheiro e tempo
+	-ligação
+		gasto com créditos, tempo inutilizavel para com serviços prestados e mdemanda de atendimento
+	-mensagem
+		excesso de contatos e demanda de serviço além de trabalho em demasia para uma pessoa só
+	-agendamento apenas em horário comercial
+		
+
+resolução de problemas
+	-deslocamento
+		ganho de tempo e economia de dinheiro com combustível
+	-ligação
+		economia de créditos e de tempo útil de serviço
+	-menagem
+		economia de tempo 
+	-previsibilidade de serviços
+		
+	-agendamento em horário flexível
+
+inovação
+	-gerenciamento inteligente de horários marcados
+	-automação de gerenciamento de serviços
+	-interação cliente-cliente
+
+
+
+	
